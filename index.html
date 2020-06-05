@@ -2,13 +2,12 @@
     <head>
 <style>
     p {
-        border-top: 0px;
+        border-top: 0px solid;
         border-bottom: 1px solid;
         border-left: 1px solid;
         border-right: 1px solid;
         width: 250px;
         margin: 0px;
-        /* border-collapse: collapse; */
     }
     p:hover {
         background: orange;
@@ -16,6 +15,9 @@
     }
     p {
     padding: 10px 10px 10px 10px;
+    }
+    .border {
+        border-bottom: 0px;
     }
 </style>
     </head>
@@ -27,7 +29,7 @@
         <p>Nunc consectetur tincidunt augue, vitae interdum neque ultrices a.</p>
         <p>Nullam et venenatis est, ut convallis arcu. Donec vitae nibh a purus lacinia pulvinar eget at eros.</p>
         <p>In efficitur porta nisi nec mollis. Pellentesque nec varius orci, id molestie purus.</p>
-        <p>Nunc auctor lorem massa, ac imperdiet turpis gravida eu. Vivamus non ultricies quam.</p>
+        <p class="border">Nunc auctor lorem massa, ac imperdiet turpis gravida eu. Vivamus non ultricies quam.</p>
     </body>
 </html>
 
